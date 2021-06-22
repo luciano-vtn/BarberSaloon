@@ -1,4 +1,4 @@
-# Projeto OriginSex da "NLW" (RocktSeat).
+# Projeto OriginSex da "NLW" (Rocketseat).
 
 ## ORIGIN SEX!
 
