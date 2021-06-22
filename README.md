@@ -2,5 +2,5 @@
 
 ## ORIGIN SEX!
 
-Este projeto esta sendo executado de acordo com as oritações do instrutor:
+Este projeto esta sendo executado seguindo a orientação do instrutor:
 Mayk Brito da "Rocketseat" <https://rocketseat.com.br>.
