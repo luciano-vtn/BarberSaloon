@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto OriginSex para "ROCKET_SEAT"</title>
+
+<!--ICONS-->
+   <link rel="stylesheet" href="componets/assets/fonts/style.css" />
+
+<!--STYLES-->   
     <link rel="stylesheet" href="style.css"/>
 
 <!--FONTS-->
-    <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
     <link href = "https: //fonts.googleapis.com/css2? family = Poppins: wght @ 400; 500; 700 & display = swap "rel =" stylesheet ">
 </head>
@@ -19,7 +23,19 @@
      <header id="header">
          <nav class="container"> <!--Box Pattern-->
             <a id="firstLogo" href="#">Barber<span>Saloon</span>.</a> <!--FIRST LOGO-->
-            <div>??????</div>
+<!--MENU-->
+            <div class="menu">
+               <ul class="grid">
+                  <li><a class="title" href="#home">Início</a></li>
+                  <li><a class="title" href="#about">Sobre</a></li>
+                  <li><a class="title" href="#services">Serviços</a></li>
+                  <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                  <li><a class="title" href="#contact">Contato</a></li>
+               </ul>
+            </div>
+<!-- / MENU -->
+            <div class="toggle icon-menu"></div>
+            <div class="toggle icon-close"></div>
          </nav>
      </header>
 <!--MAIN CONTENT-->
@@ -30,27 +46,98 @@
                   <img src="https://images.unsplash.com/photo-1593269233759-427ba69acca5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGJhcmJlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="Barbeiro Cortando o Cabelo"/>
                </div>
                <div class="text">
-                  <h1>Saúde natural para os seus cabelos</h1><br>  <!--Salon Advertisement-->
-                 <p>Salão exclusivo em Uberaba, especializado em tratamentos naturais.</p>
-                    <a class= "button" href="#">Agende seu Horario "AQUI"</a>
+                  <h2 class="title">Saúde natural para seus cabelos</h2>  <!--Salon Advertisement-->
+                 <p>Salão exclusivo em Uberaba, especializado em tratamentos naturais.</p><br>
+                    <a class= "button" href="#">Agende seu Horário "AQUI"</a>
                </div>
            </div>
          </section>
-<!--M"DIVIDER-1 => Dividindo a primeira 'section'-->     
+<!--DIVIDER-1 => "FIM"  primeira 'section'-->
          <div class="divider-1"></div> <!--Split The Sections-->
 
-         <section class="section">
-            <div class="container">outra section</div>
+         <section class="section" id="about">
+            <div class="container grid">
+               <div class="image">
+                  <img
+                  src="https://images.unsplash.com/photo-1590540179852-2110a54f813a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGJhcmJlciUyMHNob3B8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60"
+                  alt="Homen penteando o cabelo."/>
+               </div>
+               <div class="text">
+                  <h2 class="title">Sobre nós</h2>
+                  <p>
+                     <b>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Necessitatibus deleniti perferendis vel molestiae soluta, quaerat
+                     beatae dicta ducimus praesentium architecto harum dolorum
+                     distinctio illo earum assumenda itaque. Omnis, quam repellat.</b>
+                  </p>
+                  <br />
+                  <p>
+                     <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                     illum ratione impedit quae eum quis adipisci asperiores, est
+                     doloribus distinctio excepturi minima eius dolore! Perferendis
+                     laborum illo aspernatur repellendus ipsum.</b>
+                  </p>
+                  <br />
+                  <p>
+                     <b> ipsum, dolor sit amet consectetur adipisicing elit. Sed
+                     exercitationem, illum sapiente quasi hic iusto odio maiores esse
+                     quaerat quis necessitatibus at odit, dolores dicta, officia ab
+                     quos. Provident, quae.</b>
+                  </p>
+               </div>
+            </div>
          </section>
 
+<!--DIVIDER-2 => "FIM" da segunda 'section'-->
+         <div class="divider-2"></div> <!--Split The Sections-->
 
-      
+         <section class="section" id="services">
+            <div class="container grid">
+               <header>
+                  <h2 class="title">Serviços</h2>
+                  <p>
+                     Com mais de 15 anos no mercado, o <strong>BarberSalon</strong> já
+                     conquistou clientes de inúmeros países com seus tratamentos
+                     exclusivos e totalmente naturais.
+                  </p>
+               </header>
+                  <div class="cards grid">
+                     <div class="card">
+
+                        <!--TROCAR  ↓  PARA CABELO MASCULINO-->
+
+                        <i class="icon-woman-hair"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
+                        <h3 class="title">Terapia capilar</h3>
+                        <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                           distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                           asperiores.
+                        </p>
+                     </div>
+                        <div class="card">
+                           <i class="icon-trim"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
+                           <h3 class="title">Cortes</h3>
+                           <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                              distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                              asperiores.
+                           </p>
+                        </div>
+                     <div class="card">
+                        <i class="icon-cosmetic"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
+                        <h3 class="title">Tratamentos</h3>
+                        <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+                           distinctio neque blanditiis, dolorem aperiam nulla explicabo
+                           asperiores
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </section>
 
       </main>
-        
-        
 
-    
-        <script src="script.js"></script>
+      <script src="script.js"></script> <!--verficar nome--> 
   </body>
-    </html>
+</html>
