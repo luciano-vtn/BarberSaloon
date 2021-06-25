@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?36sfdv');
-  src:  url('fonts/icomoon.eot?36sfdv#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?36sfdv') format('truetype'),
-    url('fonts/icomoon.woff?36sfdv') format('woff'),
-    url('fonts/icomoon.svg?36sfdv#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?nk6qiy');
+  src:  url('fonts/icomoon.eot?nk6qiy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?nk6qiy') format('truetype'),
+    url('fonts/icomoon.woff?nk6qiy') format('woff'),
+    url('fonts/icomoon.svg?nk6qiy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,42 +26,65 @@
 }
 
 .icon-phone:before {
-  content: "\e900";
-}
-.icon-close:before {
-  content: "\e901";
-}
-.icon-cosmetic:before {
-  content: "\e902";
-}
-.icon-facebook:before {
-  content: "\e903";
-}
-.icon-instagram:before {
-  content: "\e904";
-}
-.icon-mail:before {
-  content: "\e905";
-}
-.icon-map-pin:before {
-  content: "\e906";
-}
-.icon-menu:before {
-  content: "\e907";
-}
-.icon-trim:before {
-  content: "\e908";
-}
-.icon-whatsapp:before {
   content: "\e909";
 }
-.icon-woman-hair:before {
+.icon-close:before {
   content: "\e90a";
 }
-.icon-youtube:before {
+.icon-cosmetic:before {
   content: "\e90b";
 }
-
-.icon-man-hair:before {
-  content: "\e900b";
+.icon-facebook:before {
+  content: "\e90c";
+}
+.icon-instagram:before {
+  content: "\e90d";
+}
+.icon-mail:before {
+  content: "\e90e";
+}
+.icon-map-pin:before {
+  content: "\e90f";
+}
+.icon-menu:before {
+  content: "\e910";
+}
+.icon-trim:before {
+  content: "\e911";
+}
+.icon-whatsapp:before {
+  content: "\e912";
+}
+.icon-woman-hair:before {
+  content: "\e913";
+}
+.icon-youtube:before {
+  content: "\e914";
+}
+.icon-trim_2:before {
+  content: "\e901";
+}
+.icon-corte_cadeira:before {
+  content: "\e902";
+}
+.icon-navalha:before {
+  content: "\e903";
+}
+.icon-pente_tesoura1:before {
+  content: "\e904";
+}
+.icon-secador:before {
+  content: "\e905";
+}
+.icon-pente_tesoura2:before {
+  content: "\e906";
+}
+.icon-cliente2:before {
+  content: "\e907";
+}
+.icon-maquina:before {
+  content: "\e908";
+}
+.icon-clente1:before {
+  content: "\e900";
 }

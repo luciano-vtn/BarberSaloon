@@ -10,6 +10,9 @@
 <!--ICONS-->
    <link rel="stylesheet" href="componets/assets/fonts/style.css" />
 
+<!--SWIPER => BIBLIOTECA PARA ADD O EFEITO DE 'SLIDER OU CARROUSEL'--> 
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 <!--STYLES-->   
     <link rel="stylesheet" href="style.css"/>
 
@@ -91,6 +94,7 @@
 <!--DIVIDER-2 => "FIM" da segunda 'section'-->
          <div class="divider-2"></div> <!--Split The Sections-->
 
+<!--SERVICES-->
          <section class="section" id="services">
             <div class="container grid">
                <header>
@@ -103,10 +107,7 @@
                </header>
                   <div class="cards grid">
                      <div class="card">
-
-                        <!--TROCAR  ↓  PARA CABELO MASCULINO-->
-
-                        <i class="icon-woman-hair"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
+                        <i class="icon-clente1"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
                         <h3 class="title">Terapia capilar</h3>
                         <p>
                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -115,7 +116,7 @@
                         </p>
                      </div>
                         <div class="card">
-                           <i class="icon-trim"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
+                           <i class="icon-corte_cadeira"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
                            <h3 class="title">Cortes</h3>
                            <p>
                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -135,9 +136,118 @@
                   </div>
                </div>
             </section>
+<!--DIVIDER-3 => "FIM" da terceira 'section'-->
+            <div class="divider-1"></div> <!--Split The Sections-->
+
+<!--TESTIMONIALS-->
+         <section class="section" id="testimonials">
+            <div class="container">
+               <header>
+                  <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+               </header>
+               <div class="testimonials swiper-container">
+                  <div class="swiper-wrapper">
+                     <div class="testimonial swiper-slide">
+                        <blockquote><!--CAIXA ESPECIAL QUE INDICA COMENTARIO DE OUTRA PESSOA-->
+                           <p>
+                           <span>&ldquo;</span> <!--"&ldquo" PARA DAR ESTILO A " DO APP-->
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                              ipsam neque
+                           </p>
+                           <cite>
+                              <img src="componets/photos/bra.jpg" alt="Foto de João Blabla"/>
+                                 João Blabla
+                           </cite>
+                        </blockquote>
+                     </div>
+
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                           <span>&ldquo;</span> <!--"&ldquo" PARA DAR ESTILO A " DO APP-->
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                              ipsam neque
+                           </p>
+                           <cite>
+                              <img src="componets/photos/ind.jpg"alt="Foto de Wandame Malou" />
+                                 Wandame Malou
+                           </cite>
+                        </blockquote>
+                     </div>
+
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                           <span>&ldquo;</span> <!--"&ldquo" PARA DAR ESTILO A " DO APP-->
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                              ipsam neque
+                           </p>
+                           <cite>
+                              <img src="componets/photos/jap.jpg"  alt="Fotos de Shiamoy Thorik"/>
+                                 Shiamoy Thorik
+                           </cite>
+                        </blockquote>
+                     </div>
+
+                     <div class="testimonial swiper-slide">
+                        <blockquote>
+                           <p>
+                           <span>&ldquo;</span> <!--"&ldquo" PARA DAR ESTILO A " DO APP-->
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Rerum blanditiis saepe nam excepturi explicabo ipsa error
+                              ipsam neque
+                           </p>
+                           <cite>
+                              <img src="componets/photos/old.jpg" alt="Fotos de Saben Null"/>
+                                Saben Null
+                           </cite>
+                        </blockquote>
+                     </div>
+                  </div>                
+                         <div class="swiper-pagination"></div> <!-- If we need pagination -->
+               </div>
+            </div>
+         </section>
+<!--DIVIDER-4 => "FIM" da quarta 'section'-->
+            <div class="divider-2"></div> <!--Split The Sections-->
+<!-- CONTACT -->
+         <section class="section" id="contact">
+            <div class="container grid">
+               <div class="text">
+                  <h2 class="title">Entre em contato com a gente!</h2>
+                  <p>
+                     Entre em contato com a BarberSaloon, e tire suas dúvidas,
+                     queremos ouvir suas críticas e sugestões.
+                  </p>
+<!--ESSE LINK PARA "WATSAPP" FOI RETIRADO DO SITE => https://www.techtudo.com.br/dicas-e-tutoriais/2018/11/como-gerar-link-do-whatsapp.ghtml-->
+                  <a href="https://api.whatsapp.com/send?phone=+5590090006000&text=Oi! Gostaria de agendar um horário"
+                  class="button"
+                  target="_blank">
+                  <i class="icon-whatsapp"></i> Entre em contato</a><!--ICON DO WATSAPP-->
+               </div>
+<!-- LINKS FOR CONTACT -->
+               <div class="links">
+                  <ul class="grid">
+                     <li><i class="icon-phone"></i> 90 09000-6000</li> <!--fictitious number-->
+                     <li><i class="icon-map-pin"></i> R. Marte Solar, 111</li><!--fictitious address-->
+                     <li><i class="icon-mail"></i> contato@barbersalon.com</li><!--fictitious-->
+                  </ul>
+               </div>
+            </div>
+         </section>
 
       </main>
+<!-- "SCRIPT JS" => SWIPER -->
+         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-      <script src="script.js"></script> <!--verficar nome--> 
+<!-- "SCRIPT JS" => SCROLREVEAL -->
+         <script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- "SCRIPT JS" => DA PAGINA -->
+
+      <script src="script.js"></script>
   </body>
 </html>
