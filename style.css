@@ -23,7 +23,7 @@ img {
     --header-height: 4rem;
 
 /* "COLORS" ↓  ALTERANDO O NUMERO INDICADO PELA SETA, SERÁ MODIFICADO A COR DO LAYOUT.  */
-    --hue: 158;
+    --hue: 140;
 
 /* HSL color mode */
     --base-color: hsl(var(--hue) 36% 57%);
