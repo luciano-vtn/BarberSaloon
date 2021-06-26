@@ -41,7 +41,9 @@
             <div class="toggle icon-close"></div>
          </nav>
      </header>
+
 <!--MAIN CONTENT-->
+   <!--HOME-->
       <main>
          <section class="section" id="home">
            <div class="container grid"> <!--Box Pattern 2-->
@@ -56,6 +58,7 @@
            </div>
          </section>
 <!--DIVIDER-1 => "FIM"  primeira 'section'-->
+   <!--ABOUT-->
          <div class="divider-1"></div> <!--Split The Sections-->
 
          <section class="section" id="about">
@@ -95,12 +98,12 @@
          <div class="divider-2"></div> <!--Split The Sections-->
 
 <!--SERVICES-->
-<!--contem os "icons"-->
+   <!--contem os "icons"-->
          <section class="section" id="services">
             <div class="container grid">
                <header>
                   <h2 class="title">Serviços</h2>
-                  <p>
+                  <p class="subtitle">
                      Com mais de 15 anos no mercado, o <strong>BarberSalon</strong> já
                      conquistou clientes de inúmeros países com seus tratamentos
                      exclusivos e totalmente naturais.
@@ -207,8 +210,9 @@
                            </cite>
                         </blockquote>
                      </div>
-                  </div>                
-                         <div class="swiper-pagination"></div> <!-- If we need pagination -->
+                  </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div> 
                </div>
             </div>
          </section>
@@ -225,9 +229,12 @@
                   </p>
 <!--ESSE LINK PARA "WATSAPP" FOI RETIRADO DO SITE => https://www.techtudo.com.br/dicas-e-tutoriais/2018/11/como-gerar-link-do-whatsapp.ghtml-->
                   <a href="https://api.whatsapp.com/send?phone=+55909000600&text=Oi! Gostaria de agendar seu horário"
-                  class="button"
-                  target="_blank">
-                  <i class="icon-whatsapp"></i> Entre em contato</a><!--ICON DO WATSAPP-->
+                     class="button"
+                     target="_blank">
+                     <i 
+                        class="icon-whatsapp">
+                     </i> Entre em contato
+                  </a>
                </div>
 <!-- LINKS FOR CONTACT -->
                <div class="links">
@@ -268,14 +275,13 @@
 <!-- "ARROW" ↑ RETORNA PARA O TOPO -->
          <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
 
-
 <!-- "SCRIPT JS" => SWIPER -->
          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-<!-- "SCRIPT JS" => SCROLREVEAL -->
+<!-- "SCRIPT JS" => SCROLLREVEAL -->
          <script src="https://unpkg.com/scrollreveal"></script>
 
-<!-- "SCRIPT JS" => DA PAGINA -->
+<!-- "SCRIPT JS" => FRON PAGE -->
           <script src="script.js"></script>
   </body>
 </html>
