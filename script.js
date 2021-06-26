@@ -52,11 +52,30 @@ const scrollReveal = ScrollReveal({
 
 scrollReveal.reveal(
   `#home .image, #home .text,
-    #about .image, #about .text,
-    #services header, #services .card,
-    #testimonials header, #testimonials .testimonials
-    #contact .text, #contact .links
+  #about .image, #about .text,
+  #services header, #services .card,
+  #testimonials header, #testimonials .testimonials
+  #contact .text, #contact .links,
+  footer .brand, footer .social
   `,
   { interval: 100 }
 )
 
+/* ---------"ARROW" button ↑ RETURN TO TOP----------*/
+
+// button ↑ RETURN TO TOP 
+function backToTop() {
+  const backToTopButton = document.querySelector('.back-to-top')
+
+  if (window.scrollY >= 560) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
+  }
+}
+
+// When Scroll 
+window.addEventListener('scroll', function () {
+  changeHeaderWhenScroll()
+  backToTop()
+})

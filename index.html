@@ -25,7 +25,7 @@
 <!--HEADER-->
      <header id="header">
          <nav class="container"> <!--Box Pattern-->
-            <a id="firstLogo" href="#">Barber<span>Saloon</span>.</a> <!--FIRST LOGO-->
+            <a class="firstLogo" href="#">Barber<span>Saloon</span>.</a> <!--FIRST LOGO-->
 <!--MENU-->
             <div class="menu">
                <ul class="grid">
@@ -95,6 +95,7 @@
          <div class="divider-2"></div> <!--Split The Sections-->
 
 <!--SERVICES-->
+<!--contem os "icons"-->
          <section class="section" id="services">
             <div class="container grid">
                <header>
@@ -107,7 +108,7 @@
                </header>
                   <div class="cards grid">
                      <div class="card">
-                        <i class="icon-clente1"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
+                        <i class="icon-cliente1"></i> <!-- "i" É UMA TAG NUITO USADA QUANDO SE TRABALHA COM => (ICONES)-->
                         <h3 class="title">Terapia capilar</h3>
                         <p>
                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
@@ -223,7 +224,7 @@
                      queremos ouvir suas críticas e sugestões.
                   </p>
 <!--ESSE LINK PARA "WATSAPP" FOI RETIRADO DO SITE => https://www.techtudo.com.br/dicas-e-tutoriais/2018/11/como-gerar-link-do-whatsapp.ghtml-->
-                  <a href="https://api.whatsapp.com/send?phone=+5590090006000&text=Oi! Gostaria de agendar um horário"
+                  <a href="https://api.whatsapp.com/send?phone=+55909000600&text=Oi! Gostaria de agendar seu horário"
                   class="button"
                   target="_blank">
                   <i class="icon-whatsapp"></i> Entre em contato</a><!--ICON DO WATSAPP-->
@@ -238,8 +239,36 @@
                </div>
             </div>
          </section>
-
+<!--DIVIDER-5 => "FIM" da quinta 'section'--> 
+            <div class="divider-2"></div> <!--Split The Sections-->
       </main>
+
+<!--FOOTER-->
+         <footer class="section">
+            <div class="container grid">
+               <div class="brand"> <!--MARCA-->
+                  <a class="firstLogo logo-alt" href="#home">Barber<span>Saloon</span>.</a>
+                    <p>©2021 Beautysalon.</p>
+                    <p>Todos os direitos reservados.</p>
+               </div>
+               <div class="social">
+                  <a href="https://instagram.com" target="_blank"> <!--target="_blank" => PARA ABRIR EM OUTRA JANELA-->
+                     <i class="icon-instagram"></i>
+                  </a>
+                  <a href="https://facebook.com" target="_blank">
+                     <i class="icon-facebook"></i
+                  ></a>
+                  <a href="https://youtube.com" target="_blank"
+                     ><i class="icon-youtube"></i
+                  ></a>
+               </div>
+            </div>
+         </footer>
+
+<!-- "ARROW" ↑ RETORNA PARA O TOPO -->
+         <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+
 <!-- "SCRIPT JS" => SWIPER -->
          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
@@ -247,7 +276,6 @@
          <script src="https://unpkg.com/scrollreveal"></script>
 
 <!-- "SCRIPT JS" => DA PAGINA -->
-
-      <script src="script.js"></script>
+          <script src="script.js"></script>
   </body>
 </html>
